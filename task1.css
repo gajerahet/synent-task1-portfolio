@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+/* HERO */
+.hero{
+    height:500px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    text-align:center;
+    padding-top:100px;
+}
+
+.profile{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:3px solid white;
+}
+
+.hero h1{
+    font-size:40px;
+    margin-top:10px;
+}
+
+.tagline{
+    margin-top:10px;
+    opacity:0.8;
+}
+
+/* CARD */
+.card{
+    max-width:800px;
+    margin:20px auto;
+    padding:25px;
+    background:rgba(255,255,255,0.05);
+    border-radius:15px;
+}
+
+.skill{
+    margin:15px 0;
+}
+
+.bar{
+    height:8px;
+    background:#333;
+    border-radius:10px;
+}
+
+.fill{
+    height:100%;
+}
+
+.html{width:90%; background:red;}
+.css{width:85%; background:cyan;}
+.js{width:70%; background:yellow;}
